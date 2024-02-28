@@ -1,0 +1,229 @@
+*{
+    margin: 0;
+}
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#rect{
+    stroke-dasharray: 1980;
+    stroke-dashoffset: 1980;
+    animation: moveRect 5s ease 1 forwards;
+}
+
+@keyframes moveRect{
+    to{
+        stroke-dashoffset: 0;
+        stroke-width: 300;
+    }
+}
+
+#image0{
+    animation: moveLogo 5s ease 1 forwards;
+}
+
+@keyframes moveLogo{
+    0%,70%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+#text{
+    font-size: 30px;
+    animation: moveText 5s ease forwards;
+}
+
+@keyframes moveText{
+    0%{
+        opacity: 1;
+    }
+    10%{
+        opacity: 0;
+    }
+    20%{
+        opacity: 1;
+    }
+    30%{
+        opacity: 0;
+    }
+    40%{
+        opacity: 1;
+    }
+    50%{
+        opacity: 0;
+    }
+    60%{
+        opacity: 1;
+    }
+    70%{
+        opacity: 0;
+    }
+    80%{
+        opacity: 0;
+    }
+    90%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+// ============================ Logo Animation ================================
+#rect{
+    stroke-dasharray: 780;
+    stroke-dashoffset: 0;
+    animation: moveRect 3s ease alternate infinite;
+}
+
+@keyframes moveRect{
+    to{
+        stroke-dashoffset: 780;
+    }
+}
+
+#circle{
+    stroke-dasharray: 484;
+    stroke-dashoffset: 0;
+    fill: white;
+    animation: moveCircle 3s ease alternate infinite;
+}
+
+@keyframes moveCircle{
+    100%{
+        stroke-dashoffset: 484;
+        fill: #133d04;
+    }
+    
+}
+
+#text{
+    opacity: 0;
+    animation: moveText 3s ease alternate infinite;
+}
+
+@keyframes moveText{
+    60%{
+        opacity: 0;
+    }
+    
+    100%{
+        opacity: 1;
+    }
+}
+ */
+
+
+
+
+
+
+
+
+/*
+//==========================SVG Button=========================================
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+#text{
+    font-size: 50px;
+    font-weight: bold;
+
+}
+
+#rect{
+    stroke-dasharray: 50;
+    animation: move 1s ease alternate infinite;
+}
+
+@keyframes move{
+    to{
+        stroke-dashoffset: 50;
+    }
+}
+ */
+
+
+
+
+
+/* 
+=//============================ This is the Square Animation ================================
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    perspective: 500px;
+}
+
+
+
+.item{
+    width: 100px;
+    height: 100px;
+    background-color: pink;
+
+
+
+
+    /* animation-name: example;
+    animation-duration: 2s;
+    animation-delay: 0;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: forwards;
+
+    animation: example 2s ease 1 forwards;
+}
+
+@keyframes example{
+    0%{
+        transform: translateX(-200px);
+    }
+    20%{
+       transform: translateX(-100px) translateY(-100px);
+    }
+    40%{
+      transform: translateX(0px) translateY(0px);
+    }
+    70%{
+        transform: translateX(100px) translateY(-100px);
+    }
+    
+    100%{
+        transform: translateX(200px);
+    }
+} */
+
